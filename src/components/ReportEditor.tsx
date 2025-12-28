@@ -1,8 +1,7 @@
 import { useState, useRef } from 'react';
-import { ChevronLeft, Save, FileText, Plus, Trash2, ChevronDown, ChevronRight, Camera, AlertCircle, CheckCircle, Clock, Image, X } from 'lucide-react';
+import { ChevronLeft, Save, FileText, Plus, Trash2, ChevronDown, Camera, AlertCircle, CheckCircle, X } from 'lucide-react';
 import logoImg from '/logo.jpg';
 import jsPDF from 'jspdf';
-import html2canvas from 'html2canvas';
 
 // Types
 export type SnagPriority = 'critical' | 'high' | 'medium' | 'low';
